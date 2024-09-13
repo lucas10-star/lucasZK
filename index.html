@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você está em sua biblioteca pessoal, folheando livros antigos quando uma carta cai de um dos volumes. A carta está escrita em uma língua quase esquecida, mas você consegue decifrar o essencial: ela fala de uma cidade perdida, escondida nas profundezas da selva. Agora, sua jornada começa.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Aceitar o desafio e seguir a pista da carta</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar a carta e continuar com sua vida</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Agora que decidiu investigar, você precisa planejar sua expedição. Você tem recursos limitados e deve escolher sabiamente.
+            </p>
+            <button class="btn-proximo" data-proximo="3">"Contratar um guia local"
+            </button>
+            <button class="btn-proximo" data-proximo="4">Ir sozinho, confiando em suas habilidades</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A jornada pela selva é dura. Você encontra uma bifurcação no caminho e deve tomar uma decisão rápida.
+            </p>
+            <button class="btn-proximo" data-proximo="5">Seguir o caminho à esquerda, que parece mais seguro</button>
+            <button class="btn-proximo" data-proximo="6">Seguir o caminho à direita, que parece mais rápido, mas perigoso"</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após dias de viagem, você finalmente encontra ruínas antigas. Porém, algo está errado: há sinais de que alguém esteve aqui recentemente.
+            </p>
+            <button class="btn-proximo" data-proximo="7">Investigar as ruínas e procurar por pistas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Dentro das ruínas, você encontra um mapa incompleto da cidade. Há um enigma gravado na pedra que você precisa resolver para encontrar a localização exata do tesouro.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você resolve o enigma e descobre o caminho para o tesouro. Sua aventura está perto do fim. Avança para o Passo</p>
+            <button class="btn-proximo" data-proximo="7">Pedir ajuda ao guia </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você chega ao local indicado pelo enigma.</p>
+            <button class="btn-proximo" data-proximo="8">Há duas escolhas: um salão dourado cheio de riquezas ou uma porta antiga que leva a um segredo ainda maior.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você resolve o enigma e descobre o caminho para o tesouro. Sua aventura está perto do fim</p>
+            <button class="btn-proximo" data-proximo="9">CONTINUAR</button>
+            <button class="btn-proximo" data-proximo="10"></button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Esse conhecimento pode mudar a história para sempre</p>
+            <button class="btn-proximo" data-proximo="12"></button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você fica rico, mas o verdadeiro mistério da cidade permanece oculto. Fim da Aventura.</p>
+            <button class="btn-proximo" data-proximo="11">FIM DA AVENTURA</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
